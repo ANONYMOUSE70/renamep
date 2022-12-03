@@ -12,6 +12,14 @@ API_HASH = os.environ.get("API_HASH", "")
 
 STRING = os.environ.get("STRING", "")
 
+LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+
+DB_URL = os.environ.get("DB_URL", "")
+
+DB_NAME = os.environ.get("DB_NAME", "")
+
+CHANNEL = os.environ.get("CHANNEL", "")
+
 
 bot = Client(
 
