@@ -14,7 +14,7 @@ CHANNEL = os.environ.get('CHANNEL',"@tamildub_linkzz")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL",""))
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001855524980"))
 token = os.environ.get('TOKEN','')
 botid = token.split(':')[0]
 
