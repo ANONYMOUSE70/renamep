@@ -1,4 +1,5 @@
 import os 
+from bot import TOKEN
 from pyrogram import Client, filters
 token = os.environ.get('TOKEN','')
 botid = token.split(':')[0]
