@@ -5,7 +5,6 @@ from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 import humanize
 from helper.progress import humanbytes
-from info import TOKEN
 from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,addpredata,total_rename,total_size
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
@@ -15,7 +14,7 @@ import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","BQDdVvcAdt14LBDXbPsaSVDzu5ItcZdgQEcbPzDjUx0AsRDTkj5SA25Zr4TpmW_I7y6D1HnfHEU3WBiDEMKINLU1b0E7Sn6q_kjA5DR_CuLv8AhZMktat9VabjT63FDZG2-Lb9IfJ7mV_q8Wn5hm10TvvI6sPbB0CYDagOioSRAZ9P-vUSu6V2l-5rDnfp6wxISJn-U9EpgRt6HED_e7UnlcZXZadLo_h8BFgwzWjDJlW4fYoBgNaF_cwzYNCqbzJgiA-dU3Q-6Su_UZG-50VGelibC8flyIMHvV0mlz_yTDtR4PlBrkj97iqtCQRFwR7JEUC6mmOKShiIqzQaiVRBNYsbNwZQAAAAE7Z4AQAA")
 log_channel = int(os.environ.get("LOG_CHANNEL","-1001855524980"))
-token = os.environ.get('TOKEN','')
+token = os.environ.get('TOKEN','5945219564:AAHNUQJuBMGsjQgzXg-p_wB-FrHhO9PqfMQ')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
