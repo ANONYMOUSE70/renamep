@@ -122,7 +122,7 @@ async def send_doc(client,message):
        		media = await client.get_messages(message.chat.id,message.id)
        		file = media.document or media.video or media.audio 
        		dcid = FileId.decode(file.file_id).dc_id
-       		filename = file.file_name
+       		filename = file.file_caption
        		value = 2147483648
        		used_ = find_one(message.from_user.id)
        		used = used_["used_limit"]
