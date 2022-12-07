@@ -8,17 +8,17 @@ async def upgrade(bot,update):
 	Daily  Upload limit 2GB
 	Price 0
 	
-	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	**VIP 1** 
+	Upload  limit 20GB/per day
+	Price 🇮🇳 40₹/🌎 0.52$  per Month
 	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	**VIP 2**
+	Upload limit 50GB/per day
+	Price 🇮🇳 80₹/🌎 1.00$  per Month
 	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
+	**VIP 3**
+	Unlimited Daily Upload ∞/per day
+	Price 🇮🇳 150₹/🌎 1.85$  per Month
 	
 	
 	Pay Using Upi I'd ```655365838@paytm```
@@ -38,16 +38,16 @@ async def upgradecm(bot,message):
 	Price 0
 	
 	**VIP 1 ** 
-	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Upload  limit 20GB/per day
+	Price 🇮🇳 40₹/🌎 0.52$  per Month
 	
-	**VIP 2 **
-	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	**VIP 2**
+	Upload limit 50GB/per day
+	Price 🇮🇳 80₹/🌎 1.00$  per Month
 	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
+	**VIP 3**
+	Unlimited Daily Upload ∞/per day
+	Price 🇮🇳 150₹/🌎 1.85$  per Month
 	
 	
 	Pay Using Upi I'd ```655365838@paytm```
