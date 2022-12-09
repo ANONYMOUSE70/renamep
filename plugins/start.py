@@ -9,7 +9,7 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"@tamildub_linkzz")
+CHANNEL = os.environ.get('CHANNEL',"TamilBotZz")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","BQDdVvcAdt14LBDXbPsaSVDzu5ItcZdgQEcbPzDjUx0AsRDTkj5SA25Zr4TpmW_I7y6D1HnfHEU3WBiDEMKINLU1b0E7Sn6q_kjA5DR_CuLv8AhZMktat9VabjT63FDZG2-Lb9IfJ7mV_q8Wn5hm10TvvI6sPbB0CYDagOioSRAZ9P-vUSu6V2l-5rDnfp6wxISJn-U9EpgRt6HED_e7UnlcZXZadLo_h8BFgwzWjDJlW4fYoBgNaF_cwzYNCqbzJgiA-dU3Q-6Su_UZG-50VGelibC8flyIMHvV0mlz_yTDtR4PlBrkj97iqtCQRFwR7JEUC6mmOKShiIqzQaiVRBNYsbNwZQAAAAE7Z4AQAA")
@@ -42,7 +42,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilDub_Linkzz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,11 +55,11 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilDub_Linkzz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
 	        except:
 	             return
 	    else:
-	         await client.send_message(id,"Congrats! You Won 100MB Upload limit")
+	         await client.send_message(id,"Congrats! You Won 50MB Upload limit")
 	         _user_= find_one(int(id))
 	         limit = _user_["uploadlimit"]
 	         new_limit = limit + 52428800
@@ -71,7 +71,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilDub_Linkzz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
 	         
 
 
@@ -87,7 +87,7 @@ async def send_doc(client,message):
        		await message.reply_text("**__You are not subscribed my channel__** ",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("Subscribe" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        
        bot_data = find_one(int(botid))
@@ -106,7 +106,7 @@ async def send_doc(client,message):
        c_time = time.time()
        
        if buy_date==None:
-           LIMIT = 350
+           LIMIT = 150
        else:
            LIMIT = 50
        then = used_date+ LIMIT
