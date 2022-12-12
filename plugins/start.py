@@ -9,7 +9,7 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"TamilBotZz")
+CHANNEL = os.environ.get('CHANNEL',"BOTxCLOUDS")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","BQDdVvcAdt14LBDXbPsaSVDzu5ItcZdgQEcbPzDjUx0AsRDTkj5SA25Zr4TpmW_I7y6D1HnfHEU3WBiDEMKINLU1b0E7Sn6q_kjA5DR_CuLv8AhZMktat9VabjT63FDZG2-Lb9IfJ7mV_q8Wn5hm10TvvI6sPbB0CYDagOioSRAZ9P-vUSu6V2l-5rDnfp6wxISJn-U9EpgRt6HED_e7UnlcZXZadLo_h8BFgwzWjDJlW4fYoBgNaF_cwzYNCqbzJgiA-dU3Q-6Su_UZG-50VGelibC8flyIMHvV0mlz_yTDtR4PlBrkj97iqtCQRFwR7JEUC6mmOKShiIqzQaiVRBNYsbNwZQAAAAE7Z4AQAA")
@@ -42,7 +42,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/BOTxCLOUDS") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,7 +55,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/BOTxCLOUDS") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,7 +71,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("ADMIN 🙋" ,url="https://t.me/HAASHIM_999") ], 
-	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/TamilBotZz") ]  ]))
+	[InlineKeyboardButton("MAIN CHANNEL ✅", url="https://t.me/BOTxCLOUDS") ]  ]))
 	         
 
 
