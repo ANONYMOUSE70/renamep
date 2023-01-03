@@ -12,7 +12,7 @@ from helper.date import add_date ,check_expi
 CHANNEL = os.environ.get('CHANNEL',"BOTxCLOUDS")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","BQDdVvcANHlDm-yH8ZqFnswHF9kkevepkX11fok3M74rkJtTulqL-KNZc6eJly-w00IepUpKfCZp_rCOQUYtnzbTaxbWBfpXWueikedVhIs8UL5jrH1oCXVmQgPkdbS_jt5g9whc1ivCNEjJxeoWm8KO6SOPy8GjpfHbCcn-mWNnzRtFiJadurxheey8brqVIBKypkBWBJBEeWXBZ_CTaq5eaFzfLOoUFfyDCDhYk-mu1x8jTjbRyQNEahGrE3Ezv8_wJzi197KAAC7jTq1JnGkbjnGXn7f1rYvLX4CTqJ4sxsCQcXruG0thmXaEwEq4lDAaoHYDCY_lhKFgCFaCdjAeLB9QsAAAAAE7Z4AQAA")
+STRING = os.environ.get("STRING","BQDdVvcAvrd7o1j4uXFpd-4S5MfVVPBho2fbrOrChk7Ih5i5gaLQvEXONmMzO4ttHxyV2fLN1l1tPZupXMQu2Avg7yf3AkO_dzWN1Z821PrIifM_eeMRhIqt41lpZ0OcToScZ1oEoeA5vXNRsr49tP3xkQFCMpgkSOGgd8VWw8wL-XvNJmgwnmKlRVSyn7APRcX_ILiIZcFfo09jDN6k7eCA79NpI6xRj8DgMGqzJ60z-Age2UioEqgmX5vWGH0pJJUL_B7064yCRrdWuuyiep1uDeUKAZkqJfdQNKugJl6SLYobHOO_1V2Eb2bThWoB6XsBcxCsLn6C4ESAl43_bXSo6dhIYwAAAAE7Z4AQAA")
 log_channel = int(os.environ.get("LOG_CHANNEL","-1001855524980"))
 token = os.environ.get('TOKEN','5945219564:AAHNUQJuBMGsjQgzXg-p_wB-FrHhO9PqfMQ')
 botid = token.split(':')[0]
