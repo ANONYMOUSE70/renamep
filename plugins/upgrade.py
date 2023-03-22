@@ -4,57 +4,63 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """<b>**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
+	text = """**CHOOSE YOUR PREFERRED PLAN**
+
 	
-	**VIP 1** 
-	Upload  limit 20GB/per day
-	Price 🇮🇳 40₹/🌎 0.52$  per Month
+	**BASIC🎟️** 
+	Daily  Upload  limit 10GB
+	FREE PLAN 👉🏻FOR ACTIVATION DM **523** 👆🏻THIS CODE TO ADMIN👇🏻
 	
-	**VIP 2**
-	Upload limit 50GB/per day
-	Price 🇮🇳 80₹/🌎 1.00$  per Month
+
+	**SUPER⚡**
+	Daily Upload limit 50GB
+	Price Rs 29₹🇮🇳/ per Month
+
 	
-	**VIP 3**
-	Unlimited Daily Upload ∞/per day
-	Price 🇮🇳 150₹/🌎 1.85$  per Month
+	**DIAMOND💎**
+	Daily Upload limit 100GB
+	Price Rs 59₹🇮🇳/ per Month
+	#access of premium features 
+
 	
+	**FOREIGN USER CONTACT ADMIN**
 	
-	Pay Using Upi I'd ```655365838@paytm```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin</b>"""
+	CLICK 👇🏻**GET PREMIUM** BUTTON TO UPGRADE PLAN"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🙋",url = "https://t.me/haashim_999")], 
-        			[InlineKeyboardButton("Paytm💰",url = "https://p.paytm.me/xCTH/dtvlquzy")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("GET PREMIUM👑 ",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")], 
+        			[InlineKeyboardButton("ADMIN👨‍💻",url = "https://t.me/CALLADMIN_beebot"),
+        			InlineKeyboardButton("PAYTM",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """<b>**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
+	text = """**CHOOSE YOUR PREFERRED PLAN**
+
 	
-	**VIP 1 ** 
-	Upload  limit 20GB/per day
-	Price 🇮🇳 40₹/🌎 0.52$  per Month
+	**BASIC🎟️** 
+	Daily  Upload  limit 10GB
+	FREE PLAN 👉🏻FOR ACTIVATION DM **523** 👆🏻THIS CODE TO ADMIN👇🏻
+
 	
-	**VIP 2**
-	Upload limit 50GB/per day
-	Price 🇮🇳 80₹/🌎 1.00$  per Month
+	**SUPER⚡**
+	Daily Upload limit 50GB
+	Price Rs 29₹🇮🇳/ per Month
+
 	
-	**VIP 3**
-	Unlimited Daily Upload ∞/per day
-	Price 🇮🇳 150₹/🌎 1.85$  per Month
+	**DIAMOND💎**
+	Daily Upload limit 100GB
+	Price Rs 59₹🇮🇳/ per Month
+	#access of premium features 
 	
+	**FOREIGN USER CONTACT ADMIN**
 	
-	Pay Using Upi I'd ```655365838@paytm```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin</b>"""
+	CLICK 👇🏻**GET PREMIUM** BUTTON TO UPGRADE PLAN """
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🙋",url = "https://t.me/haashim_999")], 
-        			[InlineKeyboardButton("Paytm💰",url = "https://p.paytm.me/xCTH/dtvlquzy")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("GET PREMIUM👑",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")], 
+        			[InlineKeyboardButton("ADMIN👨‍💻",url = "https://t.me/CALLADMIN_beebot"),
+        			InlineKeyboardButton("PAYTM",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
+
+
+
