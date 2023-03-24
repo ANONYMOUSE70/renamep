@@ -8,3 +8,4 @@ dnspython==2.3.0
 Flask==2.2.3
 gunicorn==20.1.0
 aiohttp==3.8.4
+--upgrade --force-reinstall pyrogram
