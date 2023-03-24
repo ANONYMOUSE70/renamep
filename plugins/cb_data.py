@@ -14,13 +14,13 @@ from helper.ffmpeg import take_screen_shot,fix_thumb
 from helper.progress import humanbytes
 from helper.set import escape_invalid_curly_brackets
 
-log_channel = int(os.environ.get("LOG_CHANNEL", "-1001855524980"))
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001932495598"))
 
-API_ID = int(os.environ.get("API_ID", "14505719"))
+API_ID = int(os.environ.get("API_ID", "23223511"))
 
-API_HASH = os.environ.get("API_HASH", "620f0a2aa2cd1474a4953619b3e3643d")
+API_HASH = os.environ.get("API_HASH", "c2207a11155ad050097e981fdd5fd0b1")
 
-STRING = os.environ.get("STRING", "BQDdVvcAvrd7o1j4uXFpd-4S5MfVVPBho2fbrOrChk7Ih5i5gaLQvEXONmMzO4ttHxyV2fLN1l1tPZupXMQu2Avg7yf3AkO_dzWN1Z821PrIifM_eeMRhIqt41lpZ0OcToScZ1oEoeA5vXNRsr49tP3xkQFCMpgkSOGgd8VWw8wL-XvNJmgwnmKlRVSyn7APRcX_ILiIZcFfo09jDN6k7eCA79NpI6xRj8DgMGqzJ60z-Age2UioEqgmX5vWGH0pJJUL_B7064yCRrdWuuyiep1uDeUKAZkqJfdQNKugJl6SLYobHOO_1V2Eb2bThWoB6XsBcxCsLn6C4ESAl43_bXSo6dhIYwAAAAE7Z4AQAA")
+STRING = os.environ.get("STRING", "BQCvL9oONeonVdwPOyfuAQSJcrfYg0whrRVpfm8qgIsvFzm124fasi_2Mkh7ul--Gu-RVgqnc9htb7qQfjZ7_OuAZR7cdNPvLYr6nRWSQFu7_paoOhxEOyWE987iBUtegfkAvc4l-yByvOAY4PaF2enmjPNFvW4d55R2nWNbPFHpRt8jneSrKDT_NbmYW1mkEqfNhfk6K8PR6iCCT417JyNb3RHMsGObzMmsCGOXWAtEe16dg4T1TdzXjKfQSrp-aPHoH4BlBCmzG7O_y8UMzeH4QXBoitZUOULs1A46xEhHnjUjdgG3DISgAe3KHOJMeIR9HUKLgWQ3NFNOfMwWhtq-AAAAAS0MIIwA")
 
 app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 
